@@ -165,7 +165,7 @@ La aplicación soporta:
 # 📂 Estructura del Proyecto
 
 ```bash
-expo-spotify/
+SpotifyReact/
 │
 ├── components/              # Componentes UI
 ├── screens/                 # Pantallas principales
