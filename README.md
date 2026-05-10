@@ -193,7 +193,7 @@ npm install -g expo-cli
 ## 2️⃣ Clonar repositorio
 
 ```bash
-git clone https://github.com/usuario/expo-spotify
+git clone https://github.com/isairey/SpotifyReact
 ```
 
 ---
@@ -201,7 +201,7 @@ git clone https://github.com/usuario/expo-spotify
 ## 3️⃣ Entrar al proyecto
 
 ```bash
-cd expo-spotify
+cd SpotifyReact
 ```
 
 ---
@@ -388,7 +388,7 @@ git push origin feature/nueva-funcion
 
 <div align="center">
 
-## Caleb Nance
+## Isai Reyes
 
 React Native Developer apasionado por aplicaciones móviles modernas, interfaces multimedia y experiencias inspiradas en Spotify.
 
