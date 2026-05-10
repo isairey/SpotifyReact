@@ -1,141 +1,419 @@
-# Spotify: UI Clone with React Native / Expo
+<div align="center">
 
-web demo: [Expo Spotify](https://expo-spotify.vercel.app)
+<img width="220" src="https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg" />
 
-[![follow @calebnance](https://img.shields.io/twitter/follow/calebnance.svg?style=for-the-badge&logo=TWITTER&logoColor=FFFFFF&labelColor=00aced&logoWidth=20&color=lightgray)](https://twitter.com/calebnance)
+# 🎵 Expo Spotify
+
+### Clon moderno de Spotify desarrollado con React Native y Expo 🚀
 
 <p align="center">
-  <img src="screenshots/screenshare-4.jpg?raw=true" />
+  <b>Expo Spotify</b> es una aplicación inspirada en Spotify creada con React Native y Expo, diseñada para funcionar en iOS, Android y Web como Progressive Web App (PWA), replicando la experiencia visual moderna del reproductor musical de Spotify.
 </p>
 
-## Table of Contents
+<p align="center">
+  <img src="https://img.shields.io/badge/React%20Native-Mobile%20App-61DAFB?style=for-the-badge&logo=react&logoColor=black">
+  <img src="https://img.shields.io/badge/Expo-Cross%20Platform-000020?style=for-the-badge&logo=expo">
+  <img src="https://img.shields.io/badge/Spotify-UI%20Clone-1DB954?style=for-the-badge&logo=spotify">
+  <img src="https://img.shields.io/badge/PWA-Web%20Support-success?style=for-the-badge">
+</p>
 
-- [Install & Build](#install--build)
-- [Features](#features)
-- [Linting](#linting)
-- [Expo Web](#expo-web)
-- [Release Notes](#release-notes)
+<p align="center">
+  <a href="#-preview">Preview</a> •
+  <a href="#-características">Características</a> •
+  <a href="#-expo-web">Expo Web</a> •
+  <a href="#-tecnologías-utilizadas">Tecnologías</a> •
+  <a href="#-instalación">Instalación</a>
+</p>
 
-## Install & Build
+</div>
 
-First, make sure you have Expo CLI installed: `npm install -g expo-cli`
+---
 
-**Install:**
+# 🌌 Acerca de Expo Spotify
+
+**Expo Spotify** es un clon visual moderno de Spotify enfocado en replicar la experiencia UI/UX del reproductor oficial utilizando React Native, Expo y navegación avanzada multiplataforma.
+
+La aplicación permite:
+
+- 🎵 Navegar álbumes y playlists
+- 🎧 Simular reproducción musical
+- 📱 Navegación moderna estilo Spotify
+- 🌐 Compatibilidad Web PWA
+- ⚡ Experiencia fluida multiplataforma
+- 🌙 Dark Mode estilo Spotify
+- 🎨 Interfaces animadas
+
+El proyecto fue creado para practicar:
+
+- React Native
+- Expo
+- React Navigation
+- Mobile UI/UX
+- PWA Development
+- Cross-platform Apps
+- Animaciones móviles
+
+---
+
+# 📸 Preview
+
+<div align="center">
+
+<img src="screenshots/screenshare-4.jpg?raw=true" width="900"/>
+
+</div>
+
+---
+
+# ✨ Características
+
+# 🎵 Experiencia Spotify
+
+- 🎧 Interfaz inspirada en Spotify
+- 🌙 Dark Mode moderno
+- 📱 Navegación fluida
+- 🎶 Componentes musicales
+- ⚡ Diseño responsive
+
+---
+
+## 📱 Compatibilidad Multiplataforma
+
+- 🍎 iOS
+- 🤖 Android
+- 🌐 PWA Web App
+- ⚡ React Native Web
+- 📲 Diseño adaptativo
+
+---
+
+## 🎛️ Navegación Moderna
+
+- 📚 Tab Navigation
+- 🔄 Stack Navigation
+- 🎵 Music Player UI
+- 📜 Scroll animations
+- 🎨 Header animations
+
+---
+
+## 🎶 Componentes Multimedia
+
+- 💿 Album Screens
+- 🎤 Playlist sections
+- 🎵 Mini music player
+- 🔍 Search system
+- 📚 Music library
+
+---
+
+# 🌐 Expo Web
+
+## ⚡ Progressive Web App
+
+La aplicación soporta:
+
+- PWA mode
+- React Native Web
+- Responsive layouts
+- Mobile-first design
+- Web deployment
+
+---
+
+## 📱 Experiencia Web
+
+- 🌙 Dark theme
+- ⚡ Mobile optimized
+- 🎨 Native-like UI
+- 📲 Responsive rendering
+- 🚀 Fast navigation
+
+---
+
+# 🛠️ Tecnologías Utilizadas
+
+## 📱 Desarrollo Mobile
+
+<p>
+  <img src="https://skillicons.dev/icons?i=react,js,nodejs,vscode" />
+</p>
+
+- React Native
+- Expo SDK 48
+- JavaScript
+- React Navigation
+
+---
+
+## ⚙️ Librerías y Herramientas
+
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github" />
+</p>
+
+### Dependencias principales
+
+- React Context
+- react-navigation
+- react-native-web
+- PropTypes
+- Expo CLI
+
+---
+
+# 📂 Estructura del Proyecto
+
+```bash
+expo-spotify/
+│
+├── components/              # Componentes UI
+├── screens/                 # Pantallas principales
+├── navigation/              # Navegación React
+├── context/                 # Estado global
+├── screenshots/             # Capturas
+├── assets/                  # Recursos multimedia
+├── App.js
+├── package.json
+└── README.md
+```
+
+---
+
+# ⚡ Instalación
+
+## 1️⃣ Instalar Expo CLI
+
+```bash
+npm install -g expo-cli
+```
+
+---
+
+## 2️⃣ Clonar repositorio
+
+```bash
+git clone https://github.com/usuario/expo-spotify
+```
+
+---
+
+## 3️⃣ Entrar al proyecto
+
+```bash
+cd expo-spotify
+```
+
+---
+
+## 4️⃣ Instalar dependencias
 
 ```bash
 yarn
 ```
 
-**Run Project Locally:**
+---
+
+## 5️⃣ Ejecutar proyecto
 
 ```bash
 yarn dev
 ```
 
-## Features
+---
+
+# 🌐 Ejecutar Expo Web
+
+## 🚀 Desarrollo Web
+
+```bash
+yarn web
+```
+
+o
+
+```bash
+expo start --web
+```
+
+---
+
+## 📦 Build PWA
+
+```bash
+yarn web-build
+```
+
+---
+
+# 🔥 Funcionalidades Técnicas
+
+# 🎛️ Sistema de Navegación
+
+- React Navigation v6
+- Stack Navigation
+- Bottom Tabs
+- Animated navigation
+- Modal navigation
+
+---
+
+## 🎨 UI / UX
+
+- Sticky headers
+- Animated search bar
+- Blur views
+- Scroll animations
+- Responsive components
+
+---
+
+## ⚡ Arquitectura React
+
+- React Context
+- Component architecture
+- Reusable components
+- State management
+- Cross-platform rendering
+
+---
+
+# 📱 Pantallas Incluidas
+
+## 🎵 Interfaces principales
+
+- 🏠 Home Screen
+- 🔍 Search Screen
+- 📚 Library Screen
+- 🎧 Music Player
+- 💿 Album Screen
+- 📜 Playlist Screen
+- ⚙️ Settings UI
+
+---
+
+# 🧪 Linting & Calidad
+
+## 🔥 Herramientas incluidas
+
+- ESLint
+- Prettier
+- Airbnb Config
+- React Hooks rules
+- React Native linting
+
+---
+
+## ⚡ Ejecutar lint
+
+```bash
+yarn lint
+```
+
+---
+
+# 📊 Release Notes
+
+## 🚀 Versiones destacadas
 
 - Expo SDK 48
-- iOS, Android and PWA (Web App)
 - React Navigation v6
-- React Context
-- PropTypes
+- React Context integration
+- PWA Support
+- React Native Web
 
-## Linting
+---
 
-- run: `yarn lint` for a list of linting warnings/error in cli
-- prettier and airbnb config
-- make sure you have [prettier package](https://atom.io/packages/prettier-atom) installed on your atom/vscode editor
-- then make sure to enable these options (packages → prettier):
-  - eslint integration
-  - stylelint integration
-  - automatic format on save (toggle format on save)
-- be aware of the `.prettierignore` file
+# 🧠 Objetivos del Proyecto
 
-**Update Linting Packages:**
+## 🎯 Aprender y practicar
 
+- React Native
+- Expo
+- PWA Apps
+- Mobile UI Design
+- React Navigation
+- Cross-platform development
+- Animaciones móviles
+- Arquitectura frontend
+
+---
+
+# 📊 Roadmap
+
+## 🚧 Próximamente
+
+- 🎵 Streaming real
+- ❤️ Sistema favoritos
+- ☁️ Backend integration
+- 🔥 Spotify API
+- 📱 Mejoras PWA
+- 🎧 Audio player real
+- 🌙 Themes dinámicos
+- 🚀 Optimización rendimiento
+
+---
+
+# 🤝 Contribuciones
+
+Las contribuciones son bienvenidas ❤️
+
+## Cómo contribuir
+
+1. Haz Fork del proyecto
+2. Crea una rama
+
+```bash
+git checkout -b feature/nueva-funcion
 ```
-yarn add @babel/core eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-import-helpers eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-react-native prettier --dev
+
+3. Realiza cambios
+4. Haz commit
+
+```bash
+git commit -m "✨ Nueva funcionalidad"
 ```
 
-## Expo Web
+5. Haz push
 
-Currently Expo Web support is **not production ready**, but if you want to see how this project looks on the web as a PWA (Progressive Web App)... using [react-native-web](https://github.com/necolas/react-native-web) and react-dom.
+```bash
+git push origin feature/nueva-funcion
+```
 
-[PWA: Expo Spotify](https://expo-spotify.calebnance.now.sh) looks best on a mobile device, but not bad on desktop!
+6. Abre un Pull Request 🚀
 
-**Dev with Expo Web**
+---
 
-- Remove node_modules if they exist: `rm -rf nodes_modules`
-- Install/Re-install: `yarn`
-- Start development: `yarn web` or `expo start --web`
-- Build PWA: `yarn web-build` or `expo build:web`
+# 👨‍💻 Autor
 
-a couple manual changes within `index.html` i found needed to be made so far:
+<div align="center">
 
-- **to make splash screen work:** "mobile-web-app-capable" => "apple-mobile-web-app-capable"
-- **status bar transparent:** apple-mobile-web-app-status-bar-style="default" => "black-translucent"
-- **no white background:** add background color within body{background-color: #121212; ...}
-- **check output meta:** double image meta tags
-- **check output js:** double/triple js packages
+## Caleb Nance
 
-## Release Notes
+React Native Developer apasionado por aplicaciones móviles modernas, interfaces multimedia y experiencias inspiradas en Spotify.
 
-**version 0.5.0 (current)**
+</div>
 
-- upgraded to [Expo SDK 48](https://blog.expo.dev/expo-sdk-48-ccb8302e231)
-- upgraded to [Expo SDK 47](https://blog.expo.dev/expo-sdk-47-a0f6f5c038af)
-- upgraded to [Expo SDK 46](https://blog.expo.dev/expo-sdk-46-c2a1655f63f7)
-- upgraded to [Expo SDK 45](https://blog.expo.dev/expo-sdk-45-f4e332954a68)
-- upgraded to [React Navigation v6](https://reactnavigation.org/docs/getting-started)
-- upgraded to [React Navigation v5](https://reactnavigation.org/docs/5.x/getting-started)
-- Removed ScreenProps for [React Context](https://reactjs.org/docs/context.html)
+---
 
-**version 0.4.0**
+# 🌟 Apoya el Proyecto
 
-- upgraded to [Expo SDK 44](https://blog.expo.dev/expo-sdk-44-4c4b8306584a)
-- upgraded to [Expo SDK 43](https://blog.expo.dev/expo-sdk-43-aa9b3c7d5541)
-- upgraded to [Expo SDK 42](https://blog.expo.io/expo-sdk-42-579aee2348b6)
+Si te gusta Expo Spotify:
 
-**version 0.3.0**
+⭐ Dale una estrella al repositorio  
+🍴 Haz Fork del proyecto  
+📢 Compártelo con otros desarrolladores
 
-- upgraded to [Expo SDK 41](https://blog.expo.io/expo-sdk-41-12cc5232f2ef)
-- upgraded to [Expo SDK 40](https://blog.expo.io/expo-sdk-40-is-now-available-d4d73e67da33)
-- upgraded to [Expo SDK 39](https://blog.expo.io/expo-sdk-39-is-now-available-4c10aa825e3f)
-- upgraded to [Expo SDK 38](https://blog.expo.io/expo-sdk-38-is-now-available-ab6cd30ca2ee)
+---
 
-**version 0.2.0**
+# 📜 Licencia
 
-- upgraded to [React Navigation v4](https://reactnavigation.org/docs/4.x/getting-started)
-- upgraded to [Expo SDK 37](https://blog.expo.io/expo-sdk-37-is-now-available-dd5770f066a6)
-- upgraded to [Expo SDK 36](https://blog.expo.io/expo-sdk-36-is-now-available-b91897b437fe)
-- upgraded to [Expo SDK 35](https://blog.expo.io/expo-sdk-35-is-now-available-beee0dfafbf4)
+Proyecto Open Source desarrollado con fines educativos y práctica de React Native y Expo.
 
-**version 0.1.0**
+---
 
-- Expo Web support
-- upgraded to [Expo SDK 34](https://blog.expo.io/expo-sdk-34-is-now-available-4f7825239319)
-- upgraded to [Expo SDK 33](https://blog.expo.io/expo-sdk-v33-0-0-is-now-available-52d1c99dfe4c)
-- started with [React Navigation v3](https://reactnavigation.org/docs/3.x/getting-started)
-- iOS and Android
-- Tab Navigation (stacks created)
-  - Home
-    - Horizontal Album component
-    - Album Screen
-      - animation opacity on header
-      - scroll sticky of shuffle button
-      - current song playing shows in album list view
-    - Album More Options (added by [@bidah](https://github.com/bidah))
-      - blur view
-      - SafeAreaView example
-      - action list with supporting icons
-    - Header animation on scroll event
-      - animation opacity on iPhoneX notch
-      - animation opacity on cog icon
-  - Search
-    - Sticky search bar (animated width)
-    - Playlists sections added (with mock data)
-  - Library
-    - Menu items from mock data
-  - Custom Bar for Music Player added to `<BottomTabBar />`
-- Modals (bottom to top)
-  - Music Player
+<div align="center">
+
+### 🎵 Expo Spotify — Experiencia Spotify multiplataforma desarrollada con React Native y Expo.
+
+</div>
